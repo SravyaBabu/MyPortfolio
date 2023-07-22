@@ -1,0 +1,76 @@
+.bi{
+    color: rgb(53, 134, 239);
+}
+
+.Name{
+    font-size: large;
+    color: rgb(53, 134, 239);
+    padding-top: 5px;
+}
+
+.floating {
+	animation-name: floating;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 15px); }
+	100% { transform: translate(0, -0px); }
+}
+
+#heroes-1{
+    background-color: rgb(127, 227, 255);
+}
+
+.display-5{
+    font-size: 90px;
+
+        font-family: 'VT323', monospace;
+}
+
+.connect{
+    color: azure;
+    background-color: rgb(92, 202, 245);
+    border: none;
+}
+
+
+.lead{
+    font-size:medium;
+}
+
+.images{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+.projectimages{
+    border: 2px solid black;
+}
+
+.projects{
+    display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-bottom: 300px;
+}
+
+#footer-1
+{
+    background-color: rgb(127, 227, 255);
+}
+
+@media(max-width:1250px){
+    .projects{
+        grid-template-columns: auto;
+        span:2;
+        gap:2rem;
+    }
+}
